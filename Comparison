@@ -1,0 +1,11 @@
+Forward Algorithm:
+Compute the likelihood of observations given the model parameters.
+Example: In speech recognition, how likely a specific speech signal is given the acoustic model of the speaker.
+
+Viterbi Algorithm:
+Find most likely sequence of hidden states given the observations.
+Example: Whether the person carries an umbrella or not, determine most likely sequence of hidden states (Sunny or Rainy) 
+
+Particle Filtering:
+Non-linear dynamics, non-Gaussian noise, or you need to estimate the full posterior distribution of states over time.
+Example: Simultaneous localization and mapping (estimate its position and create a map of the environment ). Vaccum/Mop robot
