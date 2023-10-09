@@ -1,2 +1,3 @@
-**The Cauchy-Schwarz Inequality**
-$$\left( \sum_{k=1}^n a_k b_k \right)^2 \leq \left( \sum_{k=1}^n a_k^2 \right) \left( \sum_{k=1}^n b_k^2 \right)$$
+State given all evidence: P(X_t|e_1:t)
+Future state, given current and past evidence: P(X_t+k|e_1:t) (k>0)
+Compute argmax_X_1:t P(X_1:t|e_1:t)
